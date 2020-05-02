@@ -1,31 +1,38 @@
+.main {
+  position: relative;
+}
+
 .header {
 
 }
 
 .header h1{
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
   font-size: 35px;
   line-height: 47px;
   letter-spacing: 1px;
   text-align: center;
-}
-.main-menu {
-  
+  margin: 50px auto;
 }
 
-.main-menu ul {
+nav ul {
   display: flex;
   width: auto;
   justify-content: center;
-  
   list-style: none;
 }
 
-.main-menu li {
+nav li {
   margin-right: 75px;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
 }
 
 .highlight {
@@ -41,7 +48,7 @@
 
 .highlight h2{
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
@@ -52,12 +59,189 @@
 }
 
 .highlight p{
- 
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
   color: #fff;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
 }
+
+.review {
+
+}
+
+.review h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.review ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.review li {
+  padding: 0px;
+  margin: 0px;
+  max-width: 370px;
+  margin-right: 30px;
+}
+
+.review figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+.review h3[active] {
+  color: #FF7931;
+}
+
+.review h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px; 
+}
+
+.subscription {
+  position: relative;
+  top: -100px;
+  background-color: white;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+}
+
+.round {
+  margin: auto;
+  height: 550px;
+  width: 100%;
+  background: #F7F7F7;
+  margin-bottom: 50px;
+}
+
+.subscription h2{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 130px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.subscription ul {
+  list-style-type: none;
+  margin-top: 35px;
+}
+
+.subscription h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px; 
+}
+
+.subscription p {
+  text-align: center;
+  margin: auto;
+  width: 370px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100px;
+  opacity: 0.4;
+}
+
+.footer {
+  position: relative;
+  z-index: 1000;
+  background: #575757;
+}
+
+.subscription button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  background:#FF7931;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  width: 170px;
+  height: 50px;
+  padding: auto;
+  margin-top: 10px;
+}
+
+footer h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+footer nav {
+  color: #fff;
+}
+
+footer hr {
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  width: 85%;
+  margin: auto;
+}
+
+.social {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 110px;
+}
+
+.social img {
+  background-color: #fff;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
