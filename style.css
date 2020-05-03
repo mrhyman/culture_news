@@ -226,8 +226,9 @@ footer nav {
 footer hr {
   opacity: 0.4;
   border: 1px solid #FFFFFF;
-  width: 85%;
+  width: 1170px;
   margin: auto;
+  margin-top: 50px;
 }
 
 .social {
